@@ -1,6 +1,6 @@
 <#
  .SYNOPSIS
-    A module to generate a Word Document containing Emotet-like obfusacated VBA and PowerShell payloads.
+    A module to generate a Word Document containing Emotet-like obfuscated VBA and PowerShell payloads.
 
  .DESCRIPTION
     The code generates a PowerShell payload which is encrypted with a random key. A new Word document is generated,
