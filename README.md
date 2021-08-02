@@ -11,7 +11,7 @@ The script performs the following steps:
 
 When the generated Document is open, the VBA `Sub AutoOpen` command is executed (provided macros are enabled, of course :)), which reassembles the command and decrypts and executes the PowerShell payload.
 
-**NOTE:** the payload URL can be supplied or randomly generated. If the URL supplied/generated is valid, the response will be saved to a exe file in `C:\Temp, however this is overwritten with a copy of `calc.exe` before being run. 
+**NOTE:** the payload URL can be supplied or randomly generated. If the URL supplied/generated is valid, the response will be saved to a exe file in `C:\Temp`, however this is overwritten with a copy of `calc.exe` before being run. 
 
 ## Usage
 
